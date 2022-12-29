@@ -1,24 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-    --primary: #fe2c55;
-    --black: #000;
+    --primary: #3e6aad;
+    --black: #242424;
     --white: #fff;
-    --text-color: #161823;
 
     --font-family: 'ProximaNova', sans-serif;
 
     // Default layout
-    --default-layout-header-height: 60px;
+    --default-layout-header-height: 64.609px;
     --default-layout-width: 1150px;
     --default-layout-horizontal-spacer: 24px;
-
-    --default-layout-sidebar-width: 356px; //thêm
+    --default-layout-footer-height: 70px
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     // max-height: 100vh;
 }
 
@@ -33,6 +33,7 @@ body {
     text-rendering: optimizespeed;
     color: var(--text-color);
     overflow-y: overlay;
+//     background-color: #242424;
 }
 
 // Scrollbar CSS
